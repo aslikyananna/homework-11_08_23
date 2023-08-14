@@ -1,0 +1,14 @@
+def pram_num(x):
+    if x <= 1:
+        return False
+    for i in range(2,int(x**0.5)+1):
+        if x%i==0:
+            return False
+    return True
+def inp(y):
+    y = int(input("num: "))
+    z=y+1
+    while pram_num(z) is False:
+        z+=1
+    return z
+print(inp(9))
