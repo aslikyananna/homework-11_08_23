@@ -1,0 +1,10 @@
+def sum_num():
+    sum = 0
+    while True:
+        x = int(input("write the number: "))
+        if x>0:
+            sum += x
+        else:
+            break
+    return sum
+print(sum_num())
