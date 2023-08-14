@@ -1,0 +1,13 @@
+def foo(x):
+    ls=[ "a", "e", "i", "o", "u"]
+    ls2=["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"]
+    vowels=0
+    consonants=0
+    for i in x:
+        if i in ls:
+            vowels+=1
+        elif i in ls2:
+            consonants+=1
+    return vowels, consonants
+print(foo("j n oop"))
+
