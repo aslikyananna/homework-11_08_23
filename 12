@@ -1,0 +1,11 @@
+x=int(input("grade"))
+if x>100:
+    print("write a number from 0-100 ")
+elif 80<x<100:
+    print("A")
+elif 60<x<80:
+    print("B")
+elif 40<x<60:
+    print("C")
+else:
+    print("D")
